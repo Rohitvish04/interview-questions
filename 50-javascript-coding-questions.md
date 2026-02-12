@@ -1,14 +1,5 @@
-Here is your complete **50 JavaScript Coding Interview Questions with Solutions (.md file content)** 👇
 
-Save it as:
-
-```
-50-javascript-coding-questions.md
-```
-
----
-
-````markdown
+ 
 # 50 JavaScript Coding Interview Questions with Solutions
 
 Beginner to Intermediate Level – Perfect for 0–2 Years Experience
