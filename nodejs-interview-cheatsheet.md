@@ -95,6 +95,144 @@ Used for logging, authentication, validation, etc.
 
 ---
 
+## Types of Middleware in Express.js
+
+### 1. Application-Level Middleware
+
+Attached to the app object using `app.use()` or `app.METHOD()`.
+
+```js
+app.use((req, res, next) => {
+  console.log("Application-level middleware");
+  next();
+});
+````
+
+Can apply to:
+
+* All routes
+* Specific routes
+* Specific HTTP methods
+
+---
+
+### 2. Router-Level Middleware
+
+Works like application-level middleware but is bound to an Express Router.
+
+```js
+const express = require("express");
+const router = express.Router();
+
+router.use((req, res, next) => {
+  console.log("Router-level middleware");
+  next();
+});
+```
+
+Used to modularize route handling.
+
+---
+
+### 3. Built-in Middleware
+
+Provided by Express itself.
+
+Examples:
+
+* `express.json()` → Parses JSON bodies
+* `express.urlencoded()` → Parses URL-encoded data
+* `express.static()` → Serves static files
+
+```js
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static("public"));
+```
+
+---
+
+### 4. Error-Handling Middleware
+
+Special middleware with **four parameters**:
+
+```js
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send("Something broke!");
+});
+```
+
+Must be defined **after routes**.
+
+---
+
+### 5. Third-Party Middleware
+
+Installed via npm to add extra functionality.
+
+Examples:
+
+* `morgan` → Logging
+* `cors` → Enable Cross-Origin Resource Sharing
+* `body-parser` (used in older versions)
+
+```js
+const morgan = require("morgan");
+app.use(morgan("dev"));
+```
+
+---
+
+### 6. Custom Middleware
+
+Middleware you create for specific tasks like authentication, logging, or validation.
+
+```js
+function authMiddleware(req, res, next) {
+  if (!req.headers.authorization) {
+    return res.status(401).send("Unauthorized");
+  }
+  next();
+}
+
+app.use(authMiddleware);
+```
+
+---
+
+## Middleware Execution Order
+
+Middleware runs **in the order it is defined**.
+
+```js
+app.use(middleware1);
+app.use(middleware2);
+app.get("/", handler);
+```
+
+Execution flow:
+
+```
+Request → middleware1 → middleware2 → route handler → Response
+```
+
+---
+
+## Summary Table
+
+| Type              | Purpose                  |
+| ----------------- | ------------------------ |
+| Application-Level | Runs for entire app      |
+| Router-Level      | Runs for specific router |
+| Built-in          | Provided by Express      |
+| Error-Handling    | Handles errors           |
+| Third-Party       | External packages        |
+| Custom            | Developer-defined        |
+
+ 
+
+
 # 6. What is REST API?
 
 REST is an architectural style for designing APIs using HTTP methods:
