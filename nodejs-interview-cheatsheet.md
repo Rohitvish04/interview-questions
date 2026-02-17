@@ -380,6 +380,84 @@ Use this structure:
 
 ---
 
+# 16. What is npm?
+
+npm (Node Package Manager) is the default package manager for Node.js.
+
+It is used to install, manage, and share JavaScript packages.
+
+Common Commands:
+``` js
+npm init
+npm install express
+npm install
+npm uninstall express
+```
+---
+
+# 17. What is a Module in Node.js?
+
+A module is a reusable block of code. Every file in Node.js is treated as a module.
+
+Types of Modules:
+1. Core Modules 
+const fs = require("fs");
+
+3. Local Modules
+// math.js
+```
+exports.add = (a, b) => a + b;
+```
+```
+// app.js
+const math = require("./math");
+console.log(math.add(2, 3));
+```
+
+3. Third-Party Modules
+```
+const express = require("express");
+```
+---
+
+# 18. What is Dependency Management?
+
+Dependency management means handling external libraries required by your project.
+
+npm:
+
+Installs packages inside node_modules
+
+Stores versions in package.json
+
+Locks exact versions in package-lock.json
+``` js
+npm install express
+```
+---
+
+# 19. What Does it Mean to Publish a Package?
+
+Publishing a package means uploading your library to the npm registry so others can install it.
+
+``` js
+npm login
+npm init
+npm publish
+```
+
+Others can install it using:
+
+npm install your-package-name
+
+
+Follow semantic versioning:
+
+MAJOR.MINOR.PATCH
+1.0.0
+
+---
+
 # Bonus: Why Should We Hire You?
 
 I have strong fundamentals in JavaScript and Node.js. I have built real-world projects with REST APIs and authentication. I am eager to learn and contribute to the team.
