@@ -246,9 +246,13 @@ Request → middleware1 → middleware2 → route handler → Response
 | Third-Party       | External packages        |
 | Custom            | Developer-defined        |
 
+---
  
+# How do you handle errors in Express?
 
+You use error‑handling middleware with four arguments (err, req, res, next). In async routes, you either use try/catch and call next(err) or use wrappers that pass errors to the central handler
 
+---
 # 6. What is REST API?
 
 REST is an architectural style for designing APIs using HTTP methods:
