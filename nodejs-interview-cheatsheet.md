@@ -78,6 +78,22 @@ async function getData() {
 }
 ```
 
+#  What is callback hell and how do you avoid it?
+
+Callback hell is deeply nested callbacks that make code hard to read and maintain. Avoid it using promises, async/await, splitting logic into small functions, and proper error handling patterns.
+
+---
+
+# 5. Difference between synchronous and asynchronous code in Node.js?
+
+Synchronous code blocks the thread until it finishes, so other requests wait. Asynchronous code uses callbacks, promises, or async/await to start an operation and continue handling other work until the result is ready.
+
+---
+
+#  What is the difference between CommonJS and ES Modules in Node.js?
+
+CommonJS uses require/module.exports and loads modules synchronously. ES Modules use import/export, support static analysis and tree‑shaking, and are the modern standard in newer Node versions.
+
 ---
 
 # 5. What is Middleware in Express?
