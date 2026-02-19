@@ -64,6 +64,15 @@ I have hands-on experience as a Backend and Full-Stack Developer, working with N
 I also completed an internship at Prodigy InfoTech, contributing to responsive web applications and backend integration. I’m passionate about continuous learning and building efficient, user-focused applications, and I’m excited to contribute to your team.
 
 ---
+
+Hello, I’m Rohit Vishwakarma from Mumbai. I have completed my B.Sc. in 2025 with a focus on web development and database management.
+
+I’m a Full-Stack Developer with hands-on experience in Node.js, Express.js, Django, PostgreSQL, and React.js. I’ve built end-to-end applications, including a full-stack Blog platform and an E-commerce backend, where I designed RESTful APIs, implemented secure JWT authentication, and developed responsive user interfaces.
+
+During my internship at Prodigy InfoTech, I worked on real-world web applications, improving frontend responsiveness and backend integration. I enjoy building scalable, user-friendly applications and continuously improving my technical skills.
+
+Thank you for giving me this opportunity. I look forward to contributing to your team.
+---
 ## Tips for Delivery
 
 1. Speak **confidently and slowly**; don’t rush.  
