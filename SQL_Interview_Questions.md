@@ -15,8 +15,6 @@ SQL (Structured Query Language) is a **standard language** used to store, manipu
 
 An RDBMS stores data in tables (rows and columns), enforces relationships using keys, and supports SQL for querying and managing data.
 
-Here’s your short SQL explanation in a **GitHub-ready Markdown (.md) format**:
-
 ---
 
 ### Why Use SQL?
