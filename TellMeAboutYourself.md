@@ -54,7 +54,16 @@ I am Rohit Vishwakarma from Mumbai, completing my **B.Sc. in 2025 from the Unive
 >
 > I’m excited to bring my skills to a professional team and contribute to **scalable and efficient web applications**.”
 
+---
+# best
 
+Hello, I’m Rohit Vishwakarma from Mumbai. I have completed my B.Sc. in 2025 with a focus on web development and database management.
+
+I have hands-on experience as a Backend and Full-Stack Developer, working with Node.js, Express.js, Django, PostgreSQL, and React.js. I’ve built projects like a full-stack Blog Application and an E-commerce backend, where I developed RESTful APIs, implemented JWT-based authentication, and maintained clean, scalable code.
+
+I also completed an internship at Prodigy InfoTech, contributing to responsive web applications and backend integration. I’m passionate about continuous learning and building efficient, user-focused applications, and I’m excited to contribute to your team.
+
+---
 ## Tips for Delivery
 
 1. Speak **confidently and slowly**; don’t rush.  
