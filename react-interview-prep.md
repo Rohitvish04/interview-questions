@@ -229,6 +229,36 @@ You should be able to:
 * Explain why something re-renders
 * Debug performance issues
 * Discuss real bugs you fixed and how you solved them
+---
+# Most common React coding challenges
+Todo list app (add, edit, delete, filter by completed).
+
+Debounced search / autocomplete hitting a fake or real API.
+​
+​
+
+Pagination component for a list/table of items.
+​
+​
+
+Login / registration form with validation and error messages.
+
+Modal / dialog component (open, close, click outside, ESC key).
+
+Star rating or like/favorite component with hover and click.
+​
+​
+
+Image carousel or gallery (next/prev, autoplay, indicators).
+
+Countdown timer / stopwatch with start, pause, reset.
+​
+
+Theme toggle (dark/light) persisted in localStorage.
+​
+​
+
+Infinite scroll / “load more” list with API data.
 
 ---
 
