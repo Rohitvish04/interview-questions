@@ -14,8 +14,8 @@ React is a JavaScript library for building user interfaces, focused on composing
 JSX is a syntax extension that lets you write HTML-like code inside JavaScript, which gets compiled to `React.createElement` calls. React can work without JSX by calling `React.createElement` directly, but JSX is more readable.
 
 ### 3. Difference between props and state?
-- **Props**: Read-only data passed from parent to child, controlled by the parent.  
-- **State**: Internal, mutable data managed by the component itself using hooks like `useState`.
+- **Props**: Data passed from a parent component to a child component. It is read-only and cannot be modified by the child.  
+- **State**: Data that is managed inside the component and can change over time, usually using hooks like `useState`.
 
 ### 4. Functional vs Class Components (and which do you use)?
 Originally, class components handled state and lifecycle, but now functional components with hooks are preferred because they are simpler, less boilerplate, and better for reusing logic via custom hooks.
