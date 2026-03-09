@@ -8,8 +8,8 @@
 **Answer:**
 
 1. Browser checks cache  
-2. DNS resolves domain to IP  
-3. Browser establishes TCP connection  
+2. DNS(Domain Name System) resolves domain to IP  
+3. Browser establishes TCP(Transmission Control Protocol) connection  
 4. Sends HTTP request  
 5. Server processes request  
 6. Server sends HTTP response  
