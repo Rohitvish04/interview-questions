@@ -272,10 +272,51 @@ Intentional redundancy to reduce joins and improve read performance.
 
 ### 33. `DELETE` vs `TRUNCATE` vs `DROP`
 
-* **DELETE:** Removes rows, can use `WHERE`, can rollback
-* **TRUNCATE:** Removes all rows, faster, limited rollback
-* **DROP:** Removes table structure and data
+## 1. What is DELETE in SQL?
+**Answer:**  
+DELETE is a DML command used to remove one or more rows from a table using a WHERE condition.
 
+**Example:**
+```sql
+DELETE FROM employees WHERE id = 10;
+````
+
+---
+
+## 2. What is TRUNCATE in SQL?
+
+**Answer:**
+TRUNCATE is a DDL command used to remove all rows from a table quickly while keeping the table structure.
+
+**Example:**
+
+```sql
+TRUNCATE TABLE employees;
+```
+
+---
+
+## 3. What is DROP in SQL?
+
+**Answer:**
+DROP is a DDL command used to completely remove a table from the database, including its structure and data.
+
+**Example:**
+
+```sql
+DROP TABLE employees;
+```
+
+---
+
+## Quick Difference
+
+* **DELETE** → Removes specific rows
+* **TRUNCATE** → Removes all rows but keeps table structure
+* **DROP** → Removes the entire table
+
+ ---
+ 
 ### 34. Handling `NULL` Values
 
 * Use `IS NULL` / `IS NOT NULL`
