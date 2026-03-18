@@ -11,61 +11,66 @@ Quick one-line answers for rapid interview prep.
 1. **What is JavaScript?**  
    A programming language for web development, both frontend and backend.
 
-2. **Difference between var, let, const?**  
+ 2. **What are the main data types in JavaScript?** 
+ 
+    Primitive types: string, number, boolean, null, undefined, symbol, bigint.
+    Non‑primitive: object (includes arrays, functions, dates, etc.)
+
+3. **Difference between var, let, const?**  
    `var` → function-scoped, `let` → block-scoped, `const` → block-scoped and immutable.
 
-3. **What is hoisting?**  
+4. **What is hoisting?**  
    Moving variable and function declarations to the top of scope before execution.
 
-4. **What is a closure?**  
+5. **What is a closure?**  
    A function that remembers variables from its outer scope.
 
-5. **What is the event loop?**  
+6. **What is the event loop?**  
    Handles asynchronous operations in JavaScript by checking call stack and callback queue.
 
-6. **What is a promise?**  
+7. **What is a promise?**  
    Represents a value that may be available now, later, or never.
 
-7. **What is async/await?**  
+8. **What is async/await?**  
    Syntactic sugar to handle promises synchronously in code.
 
-8. **Difference between == and ===?**  
+9. **Difference between == and ===?**  
    `==` → compares value with type coercion, `===` → strict comparison (value + type).
 
-9. **Difference between null and undefined?**  
+10. **Difference between null and undefined?**  
    `null` → assigned empty value, `undefined` → variable declared but not initialized.
 
-10. **What is NaN?**  
+11. **What is NaN?**  
     Not a Number – invalid number operation result.
 
-11. **typeof null?**  
+12. **typeof null?**  
     `"object"`
 
-12. **What is destructuring?**  
+13. **What is destructuring?**  
     Unpacking values from arrays or objects.
 
-13. **What is the spread operator?**  
+14. **What is the spread operator?**  
     Expands elements (`...arr`) for arrays or objects.
 
-14. **What is the rest operator?**  
+15. **What is the rest operator?**  
     Collects remaining elements (`...args`) in function arguments.
 
-15. **What is an arrow function?**  
+16. **What is an arrow function?**  
     Shorter function syntax without its own `this`.
 
-16. **Difference between function declaration and expression?**  
+17. **Difference between function declaration and expression?**  
     Declarations are hoisted, expressions are not.
 
-17. **What is a higher-order function?**  
+18. **What is a higher-order function?**  
     A function that accepts another function as argument or returns a function.
 
-18. **What is callback hell?**  
+19. **What is callback hell?**  
     Nested callbacks that make code hard to read.
 
-19. **What is event bubbling?**  
+20. **What is event bubbling?**  
     Event propagates from child to parent elements.
 
-20. **What is event delegation?**  
+21. **What is event delegation?**  
     Attaching a single event listener to a parent to handle child events.
 
 ---
