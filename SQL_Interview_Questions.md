@@ -9,7 +9,11 @@
 
 ### 1. What is SQL?
 
-SQL (Structured Query Language) is a **standard language** used to store, manipulate, and retrieve data in relational database management systems (RDBMS).
+SQL (Structured Query Language) is a standard programming language used to store, retrieve, manage, and manipulate data in relational databases (tables with rows and columns)
+
+### 1.1 What is NoSQL ?
+
+NoSQL is a type of database that stores and manages data in non-tabular formats (like JSON, key-value, graph, or columns) and provides flexible schema and high scalability, unlike traditional relational (SQL) databases.
 
 ### 2. What is an RDBMS?
 
