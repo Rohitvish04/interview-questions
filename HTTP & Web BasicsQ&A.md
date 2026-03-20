@@ -34,13 +34,20 @@ Server → HTTP Response → Browser
 
 ## 3️⃣ Difference between HTTP and HTTPS?
 
-| HTTP | HTTPS |
-|-----|------|
-| Not secure | Secure |
-| No encryption | Uses SSL/TLS encryption |
-| Port 80 | Port 443 |
+| Feature            | HTTP                                      | HTTPS                                         |
+|-------------------|------------------------------------------|-----------------------------------------------|
+| **Full Form**       | HyperText Transfer Protocol              | HyperText Transfer Protocol Secure           |
+| **Security**        | Not secure. Data is sent in **plain text**, which can be intercepted or read by attackers. | Secure. Data is **encrypted** using TLS/SSL, making it hard for attackers to intercept or tamper with. |
+| **Port Number**     | 80                                       | 443                                           |
+| **URL Prefix**      | `http://`                                 | `https://`                                   |
+| **Data Integrity**  | No guarantee. Data can be altered in transit. | Provides data integrity. Ensures data is not tampered with. |
+| **Use Case**        | Suitable for websites where security isn’t critical (blogs, public info sites). | Essential for sensitive transactions (online banking, e-commerce, login pages). |
+| **Trust Indicator** | Browser shows “Not secure” for forms and logins. | Browser shows padlock icon, indicating a secure connection. |
 
-HTTPS protects data from **man-in-the-middle attacks**.
+## Key Takeaways
+1. **HTTPS is HTTP + encryption.** The encryption comes from **TLS (Transport Layer Security)**, formerly SSL.  
+2. Using HTTPS protects **privacy, authentication, and data integrity**.  
+3. Modern browsers increasingly **warn users** if a site is HTTP, especially if it has forms or login fields.  
 
 ---
 
@@ -167,17 +174,25 @@ Example:
 ## 1️⃣1️⃣ Common Status Codes
 
 ### 2xx – Success
-- 200 OK  
-- 201 Created  
+- 200 OK — Request succeeded.
+​- 201 Created — Resource was created successfully, often after a POST request.
+- ​204 No Content — Request succeeded but there is no response body. 
 
 ### 4xx – Client errors
-- 400 Bad Request  
-- 401 Unauthorized  
-- 403 Forbidden  
-- 404 Not Found  
+- 400 Bad Request — The client sent invalid input or a malformed request.
+- 401 Unauthorized — Authentication is missing or invalid.
+- 403 Forbidden — Authentication may be valid, but access is not allowed.
+- 404 Not Found — The resource does not exist.
+- 429 Too Many Requests — The client hit a rate limit.
 
 ### 5xx – Server errors
-- 500 Internal Server Error  
+- 500 Internal Server Error — Generic server-side failure.
+- 502 Bad Gateway — One server got a bad response from another server.
+- 503 Service Unavailable — The server is temporarily unavailable.
+- 504 Gateway Timeout — A server upstream did not respond in time.
+​
+
+ 
 
 ---
 
