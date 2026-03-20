@@ -54,21 +54,24 @@ Server → HTTP Response → Browser
 ## 4️⃣ What is a URL?
 
 URL = **Uniform Resource Locator**
+A URL is a reference (address) used to access resources on the internet, such as web pages, images, videos, or files.
 
 Example:
 
 ```
 
-[https://example.com/users?id=10](https://example.com/users?id=10)
+[https://www.example.com:443/blog/article.html?id=5#comments)
 
 ```
 
 Parts:
 
-- Protocol  
-- Domain  
-- Path  
-- Query parameters  
+- https → secure protocol
+- www.example.com → server/domain
+- :443 → port (default for HTTPS)
+- /blog/article.html → path to a file
+- ?id=5 → query parameter
+- #comments → fragment identifier
 
 ---
 
