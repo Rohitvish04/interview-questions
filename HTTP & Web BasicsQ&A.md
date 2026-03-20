@@ -13,7 +13,9 @@
 4. Sends HTTP request  
 5. Server processes request  
 6. Server sends HTTP response  
-7. Browser renders HTML/CSS/JS  
+7. Browser renders HTML/CSS/JS
+
+- Browser looks up the URL, connects to the server, requests the page, and displays it.
 
 ---
 
