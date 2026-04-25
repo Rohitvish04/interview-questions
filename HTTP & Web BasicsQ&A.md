@@ -335,9 +335,9 @@ An operation is **idempotent if repeating it gives the same result**.
 
 ---
 
-## 2️⃣0️⃣ What is REST?
+## 2️⃣0️⃣ What is REST API?
 
-REST (Representational State Transfer) is an **architecture for designing APIs using HTTP methods**.
+A REST API (Representational State Transfer Application Programming Interface) is an architectural style for designing networked applications. It allows different software systems to communicate over the internet using the standard HTTP protocol.
 
 Example API:
 
